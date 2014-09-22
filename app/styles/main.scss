@@ -27,7 +27,7 @@ body {
   top: 0px;
   height: 100%;
   width: 100%;
-  background-image: url('/images/tweed.png');
+  background-color: white;
   z-index: -1;
 }
 
@@ -42,8 +42,8 @@ body {
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: $nudge-grey;
-  border-top: 1px solid $nudge-grey;
+  color: #333;
+  border-top: 1px solid #333;
 }
 
 .container-narrow > hr {
@@ -157,16 +157,16 @@ body {
   top: 0px;
   border: none;
   border-radius: 0px;
-  background-color: white;
+  background-color: rgba(0,0,0,0.6);
 }
 
 .navbar-brand {
-  height: 50px;
+  height: 2.55556em;
   width: 50px;
   padding: 0px;
   margin-top: -14px;
   padding-left: 12px;
-  color: $alazarin !important;
+  color: white !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -311,20 +311,22 @@ body {
   margin-left: auto;
   margin-right: auto;
   float: right;
-  height: 50px;
+  height: 100%;
   width: 75px;
   background-color: transparent;
-  color: $alazarin !important;
+  color: white !important;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .button-join {
   border-radius: 0px;
   outline: none !important;
   float: right;
-  height: 50px;
+  height: 100%;
   width: 75px;
   background-color: transparent;
-  color: $alazarin !important;
+  color: white !important;
 }
 
 .glyphicon-th-large {
@@ -333,10 +335,10 @@ body {
   border-radius: 0px;
   outline: none !important;
   float: right;
-  height: 50px;
+  height: 100%;
   width: 50px;
   background-color: transparent;
-  color: $alazarin !important;
+  color: white !important;
   padding-bottom: 8px;
 }
 
@@ -373,7 +375,7 @@ body {
 .button-login:hover {
   outline: none !important;
   color: $green;
-  background-color: white;
+  background-color: transparent;
 }
 
 .button-login:active {
@@ -387,7 +389,7 @@ body {
 .button-join:hover {
   outline: none !important;
   color: $alazarin;
-  background-color: white;
+  background-color: transparent;
 }
 
 .button-join:active {
@@ -396,7 +398,7 @@ body {
 
 .glyphicon-th-large:hover {
   outline: none !important;
-  background-color: white;
+  background-color: transparent;
 }
 
 .mobile-nav-button:hover {
@@ -468,9 +470,9 @@ body {
   position: absolute;
   white-space: no-wrap;
   overflow: hidden;
-  border-radius: 4px;
-  color: $nudge-grey;
-  background-color: rgba(68,68,68,0.7);
+  border-radius: 1px;
+  color: #333;
+  background-color: #f2f2f2;
   z-index: -1;
 }
 
