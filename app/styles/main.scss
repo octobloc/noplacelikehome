@@ -73,7 +73,9 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
   }
 
   /* Remove the padding we set earlier */
@@ -142,12 +144,19 @@ body {
 
 @media screen and (min-width: 900px) {
   .container {
-    max-width: 880px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
   }
 }
 
 .container {
-  margin-top: 50px;
+  position: absolute;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  z-index: -1;
 }
 
 .navbar-default {
@@ -442,8 +451,34 @@ body {
 
 /* Tile Section */
 .main-container {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.banner-container {
+  color: rgba(255,255,255,0.95);
+  text-align: center;
+  width: 100%;
+}
+
+.head-banner {
+  width: 100%;
+  height: 600px;
+  padding-top: 60px;
+  white-space: no-wrap;
+  overflow: hidden;
+  border-radius: 1px;
+  color: #333;
+  background-color: #f2f2f2;
+  z-index: -1;
+}
+
+.tile-text h3 {
+
+  color: $alazarin;
 }
 
 .tile-container {
@@ -458,15 +493,14 @@ body {
   white-space: no-wrap;
   overflow: hidden;
   color: $nudge-grey;
-  min-width: 397px;
+  min-width: 49%;
   min-height: 164px;
   background-color: transparent;
 }
 
 .tile-text {
-  width: 377px;
+  width: 50%;
   height: 144px;
-  margin: 10px;
   position: absolute;
   white-space: no-wrap;
   overflow: hidden;
@@ -481,23 +515,6 @@ body {
   color: $alazarin;
 }
 
-.tile-img-container {
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  position: absolute;
-  white-space: no-wrap;
-  overflow: hidden;
-  border-radius: 4px;
-  z-index: -1;
-}
-
-.tile-img {
-  width: 290px;
-  height: 290px;
-  padding: 5px;
-}
-
 @media screen and (max-width: 890px) {
   .tile {
     min-width: 397px;
@@ -509,15 +526,6 @@ body {
     height: 144px;
   }
 
-  .tile-img-container {
-    width: 250px;
-    height: 250px;
-  }
-
-  .tile-img {
-    width: 240px;
-    height: 240px;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -531,15 +539,6 @@ body {
     height: 144px;
   }
 
-  .tile-img-container {
-    width: 200px;
-    height: 200px;
-  }
-
-  .tile-img {
-    width: 190px;
-    height: 190px;
-  }
 }
 
 
