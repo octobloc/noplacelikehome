@@ -1,7 +1,7 @@
-nudge-webapp
+nudge (name to be changed) 
 ============
 
-Nudge WebApp
+Nudge Social Network
 
 
 MVP (sorted by priority):
@@ -25,23 +25,9 @@ Release:
 Ideas:
 
 Interactive tiles that have clickable titles or interactive content.
-Tile areas that contain different tiles that are alike in type.
-Tile areas can become tiles themselves as a sort of layered effect on devices where screen isnt large enough to display full tile area effectively.
-Featured/Near you.
-Nudge-O-Meter displays party insanity level based on parties you have attended, and based on features party hosts specify.
-Possible dimming of tiles around the tile that is being hovered on? Creating a nice layered effect.
-  -Blurring of tiles?
-  -Maybe only add the effect once clicked
-Definitely some form of filter for finding things near you that uses larger tile to display toggles
-single tiles + double tiles
-  -not sure how to display information in a simple manner to fit tile theme
+
+  -soundcloud style information tiles (like on app)
+    +Dual layer divs, one with image in back, one with info above, moving at different speeds to create 3d effect.
   
 -----------
 
-Colors:
-
-in comment
-
-------------
-
-WOOT 100th COMMIT!!! This seems rather momentous. I feel like we should celebrate. I am still working on the survey and am trying to plan ahead for what needs to be done in the coming week. If all goes well we can bust this out and get some working pre-alpha profiles just so we can mess around and figure out what needs tweaking. Hopefully all goes well.
