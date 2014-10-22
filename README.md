@@ -5,20 +5,20 @@ Nudge Social Network
 
 
 MVP (sorted by priority):
-. User accounts work, Register, Login, Profile page, Edit, Delete
-. Events can be hosted by user, Edit and Delete work
-. Basic search of events works
-. Users can request an RSVP to events and hosts can accept or decline that request
-. User ratings and profile ranking works. users can rank eachother as long as they have attended the same party
+*** User accounts work, Register, Login, Profile page, Edit, Delete
+*** Events can be hosted by user, Edit and Delete work
+*** Basic search of events works
+*** Users can request an RSVP to events and hosts can accept or decline that request
+*** User ratings and profile ranking works. users can rank eachother as long as they have attended the same party
 
 
 Release:
-. Notifications work
-. Can add friends
-. Can see what friends are attending
-. Can categorize events
-. Can view events based on their category
-. Can search events based on their category
+*** Notifications work
+*** Can add friends
+*** Can see what friends are attending
+*** Can categorize events
+*** Can view events based on their category
+*** Can search events based on their category
 
 -----------
 
