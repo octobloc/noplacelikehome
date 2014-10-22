@@ -26,8 +26,12 @@ Ideas:
 
 Interactive tiles that have clickable titles or interactive content.
 
-  -soundcloud style information tiles (like on app)
-    +Dual layer divs, one with image in back, one with info above, moving at different speeds to create 3d effect.
+  ---soundcloud style information tiles (like on app)
+    +++Dual layer divs, one with image in back, one with info above, moving at different speeds to create 3d effect.
+  ---Facebook integration that allows parties to be suggested based on interests, friends, friends of friends.
+    +++internal ranking system that can get better based on likes and dislikes (pandora like) borrowing swipe left or right idea from tinder or other such apps.
+    +++prevents need to search for parties making whole process much easier to get connected with people
+  ---No need for ranking system if a friends of friends option exists. Why not use an upvote or downvote option similar to yak with a karma aspect? That way people can't simply target others and are forced to follow a certain conduct.
   
 -----------
 
